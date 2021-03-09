@@ -1,0 +1,38 @@
+body {
+  font-size: 62.5;
+  margin: 0 auto;
+  width: 90%;
+}
+
+a {
+  font-size: 12.5px;
+  text-decoration: none;
+  color: gray;
+  padding: 15px;
+}
+
+.button {
+  background-color: lightgray;
+}
+
+#sign-in {
+  background-color: blue;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#left {
+  border: 1px solid green;
+  margin-left: 10px;
+}
+
+#right {
+  border: 1px solid red;
+  margin-right: 10px;
+}
